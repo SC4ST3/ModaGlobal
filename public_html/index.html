@@ -16,5 +16,22 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
         <script src="script.js"></script>
         <p>Canvi fet pel company de projecte.</p>
+        <h2>Formulari de contacte</h2>
+
+        <form id="formulari-contacte" onsubmit="enviarFormulari(); return false;">
+            <label>Nom:</label>
+            <input type="text" name="nom"><br>
+
+            <label>Email:</label>
+            <input type="email" name="email"><br>
+
+            <label>Missatge:</label><br>
+            <textarea name="missatge"></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <script src="contacte.js"></script>
+
     </body>
 </html>
